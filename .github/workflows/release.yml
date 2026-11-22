@@ -1,0 +1,32 @@
+name: Attach skill bundle
+
+# Publish a release in the GitHub web UI (tag vX.Y.Z); this workflow then
+# zips the skills folder and attaches it to the release.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to attach the bundle to (e.g. v1.4.0)
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and upload zip
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: |
+          name="niu-shortdrama-skills-${TAG}"
+          mkdir -p "dist/${name}"
+          cp -r skills/. "dist/${name}/"
+          cp LICENSE README.md "dist/${name}/"
+          (cd dist && zip -qr "${name}.zip" "${name}")
+          gh release upload "$TAG" "dist/${name}.zip" --clobber

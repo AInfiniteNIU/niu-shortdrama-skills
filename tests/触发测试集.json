@@ -1,0 +1,902 @@
+[
+ {
+  "id": "Q001",
+  "query": "红果投稿现在一集要写多少字",
+  "expect": "zhenren-hub",
+  "alt": [
+   "zr-dx-episode"
+  ],
+  "confuse": "manju-hub",
+  "type": "主场景"
+ },
+ {
+  "id": "Q002",
+  "query": "平台允不允许真人短剧里写重生复仇？有啥规定",
+  "expect": "zhenren-hub",
+  "alt": [],
+  "confuse": "zr-dx-redline",
+  "type": "口语"
+ },
+ {
+  "id": "Q003",
+  "query": "AI漫剧投稿要交哪些东西，有官方要求吗",
+  "expect": "manju-hub",
+  "alt": [],
+  "confuse": "zhenren-hub",
+  "type": "主场景"
+ },
+ {
+  "id": "Q004",
+  "query": "漫剧平台是怎么规定首发集数的",
+  "expect": "manju-hub",
+  "alt": [],
+  "confuse": "mj-cr-outline",
+  "type": "口语"
+ },
+ {
+  "id": "Q005",
+  "query": "我是写剧本的，想在短剧创作者中心入驻，实名一直过不了",
+  "expect": "zr-onboard",
+  "alt": [],
+  "confuse": "mj-onboard",
+  "type": "主场景"
+ },
+ {
+  "id": "Q006",
+  "query": "公司对公打款验证失败了咋整",
+  "expect": "zr-onboard",
+  "alt": [],
+  "confuse": "zr-settle-data",
+  "type": "口语"
+ },
+ {
+  "id": "Q007",
+  "query": "公司以前在版权中心上过漫剧，新平台还要重新认证吗",
+  "expect": "mj-onboard",
+  "alt": [],
+  "confuse": "zr-onboard",
+  "type": "主场景"
+ },
+ {
+  "id": "Q008",
+  "query": "做漫剧的工作室怎么入驻成版权机构",
+  "expect": "mj-onboard",
+  "alt": [],
+  "confuse": "mj-submit-sign",
+  "type": "口语"
+ },
+ {
+  "id": "Q009",
+  "query": "剧本被平台评了A，保底到底怎么算",
+  "expect": "zr-submit-sign",
+  "alt": [],
+  "confuse": "zr-dx-buyer",
+  "type": "主场景"
+ },
+ {
+  "id": "Q010",
+  "query": "30集写完了怎么投，完结申请在哪点",
+  "expect": "zr-submit-sign",
+  "alt": [],
+  "confuse": "zr-dx-package",
+  "type": "口语"
+ },
+ {
+  "id": "Q011",
+  "query": "漫剧框架分成怎么才能拿到",
+  "expect": "mj-submit-sign",
+  "alt": [],
+  "confuse": "mj-release-ops",
+  "type": "主场景"
+ },
+ {
+  "id": "Q012",
+  "query": "IP库每个月的额度用完了还能改编吗",
+  "expect": "mj-submit-sign",
+  "alt": [],
+  "confuse": "mj-cr-adapt",
+  "type": "口语"
+ },
+ {
+  "id": "Q013",
+  "query": "有资方邀约我了，但我还没想好，会不会过期",
+  "expect": "zr-matchmaking",
+  "alt": [],
+  "confuse": "zr-submit-sign",
+  "type": "主场景"
+ },
+ {
+  "id": "Q014",
+  "query": "自由撮合和报备撮合有啥区别",
+  "expect": "zr-matchmaking",
+  "alt": [],
+  "confuse": "zr-crew",
+  "type": "口语"
+ },
+ {
+  "id": "Q015",
+  "query": "漫剧能不能像真人剧那样走撮合找资方",
+  "expect": "mj-matchmaking",
+  "alt": [],
+  "confuse": "zr-matchmaking",
+  "type": "主场景"
+ },
+ {
+  "id": "Q016",
+  "query": "我写AI剧剧本，去哪接活",
+  "expect": "mj-matchmaking",
+  "alt": [],
+  "confuse": "mj-submit-sign",
+  "type": "口语"
+ },
+ {
+  "id": "Q017",
+  "query": "片子拍完了，备案号还没下来能先上吗",
+  "expect": "zr-release-ops",
+  "alt": [],
+  "confuse": "zr-dx-release",
+  "type": "主场景"
+ },
+ {
+  "id": "Q018",
+  "query": "抖音版本发出去了想改付费卡点，咋改",
+  "expect": "zr-release-ops",
+  "alt": [],
+  "confuse": "mj-release-ops",
+  "type": "口语"
+ },
+ {
+  "id": "Q019",
+  "query": "漫剧上传的时候承诺集数填错了还能改吗",
+  "expect": "mj-release-ops",
+  "alt": [],
+  "confuse": "mj-dx-release",
+  "type": "主场景"
+ },
+ {
+  "id": "Q020",
+  "query": "漫剧审核又被驳了，驳回原因在哪看",
+  "expect": "mj-release-ops",
+  "alt": [],
+  "confuse": "mj-dx-release",
+  "type": "口语"
+ },
+ {
+  "id": "Q021",
+  "query": "钱什么时候能到账，发票备注要不要写",
+  "expect": "zr-settle-data",
+  "alt": [],
+  "confuse": "mj-settle-data",
+  "type": "主场景"
+ },
+ {
+  "id": "Q022",
+  "query": "我是编剧，作品数据页怎么看不到收入",
+  "expect": "zr-settle-data",
+  "alt": [],
+  "confuse": "mj-settle-data",
+  "type": "口语"
+ },
+ {
+  "id": "Q023",
+  "query": "漫剧分成结算单出了，多久打款",
+  "expect": "mj-settle-data",
+  "alt": [],
+  "confuse": "zr-settle-data",
+  "type": "主场景"
+ },
+ {
+  "id": "Q024",
+  "query": "漫剧提现开票开什么类目",
+  "expect": "mj-settle-data",
+  "alt": [],
+  "confuse": "zr-settle-data",
+  "type": "口语"
+ },
+ {
+  "id": "Q025",
+  "query": "演员怎么认领以前演过的剧",
+  "expect": "zr-crew",
+  "alt": [],
+  "confuse": "zr-onboard",
+  "type": "主场景"
+ },
+ {
+  "id": "Q026",
+  "query": "导演机构添加成员按钮是灰的",
+  "expect": "zr-crew",
+  "alt": [],
+  "confuse": "zr-onboard",
+  "type": "口语"
+ },
+ {
+  "id": "Q027",
+  "query": "虚拟角色想开个红果账号，怎么弄",
+  "expect": "mj-avatar",
+  "alt": [],
+  "confuse": "mj-cr-character",
+  "type": "主场景"
+ },
+ {
+  "id": "Q028",
+  "query": "预检提示肖像权风险，我有授权，下一步干嘛",
+  "expect": "mj-avatar",
+  "alt": [],
+  "confuse": "mj-dx-visual",
+  "type": "口语"
+ },
+ {
+  "id": "Q029",
+  "query": "投稿前帮我看看材料齐不齐，能不能投",
+  "expect": "zr-dx-package",
+  "alt": [],
+  "confuse": "mj-dx-package",
+  "type": "主场景"
+ },
+ {
+  "id": "Q030",
+  "query": "千部计划这40集能投吗，帮我过一遍",
+  "expect": "zr-dx-package",
+  "alt": [],
+  "confuse": "zr-submit-sign",
+  "type": "口语"
+ },
+ {
+  "id": "Q031",
+  "query": "这集字数是不是超了，格式对不对",
+  "expect": "zr-dx-episode",
+  "alt": [],
+  "confuse": "zr-cr-revise",
+  "type": "主场景"
+ },
+ {
+  "id": "Q032",
+  "query": "帮我跑一下格式机检",
+  "expect": "zr-dx-episode",
+  "alt": [],
+  "confuse": "mj-dx-package",
+  "type": "口语"
+ },
+ {
+  "id": "Q033",
+  "query": "黑帮和警察的戏会不会被下架",
+  "expect": "zr-dx-redline",
+  "alt": [],
+  "confuse": "zr-cr-revise",
+  "type": "主场景"
+ },
+ {
+  "id": "Q034",
+  "query": "剧名起成这样合不合规",
+  "expect": "zr-dx-redline",
+  "alt": [],
+  "confuse": "mj-dx-redline",
+  "type": "口语"
+ },
+ {
+  "id": "Q035",
+  "query": "被退稿了，平台也没说原因，帮我挑毛病",
+  "expect": "zr-dx-rejection",
+  "alt": [],
+  "confuse": "mj-dx-rejection",
+  "type": "主场景"
+ },
+ {
+  "id": "Q036",
+  "query": "这5集看着哪儿都不对，按平台标准帮我体检",
+  "expect": "zr-dx-rejection",
+  "alt": [],
+  "confuse": "zr-dx-episode",
+  "type": "口语"
+ },
+ {
+  "id": "Q037",
+  "query": "第一集开头能不能留住人",
+  "expect": "zr-dx-opening",
+  "alt": [],
+  "confuse": "zr-cr-opening",
+  "type": "主场景"
+ },
+ {
+  "id": "Q038",
+  "query": "前三集主线清不清楚",
+  "expect": "zr-dx-opening",
+  "alt": [],
+  "confuse": "zr-dx-rhythm",
+  "type": "口语"
+ },
+ {
+  "id": "Q039",
+  "query": "60集大纲，中间是不是拖了",
+  "expect": "zr-dx-rhythm",
+  "alt": [],
+  "confuse": "zr-cr-outline",
+  "type": "主场景"
+ },
+ {
+  "id": "Q040",
+  "query": "后半段是不是写崩了",
+  "expect": "zr-dx-rhythm",
+  "alt": [],
+  "confuse": "zr-cr-series",
+  "type": "口语"
+ },
+ {
+  "id": "Q041",
+  "query": "资方会不会看上我这个本，好不好拍",
+  "expect": "zr-dx-buyer",
+  "alt": [],
+  "confuse": "zr-matchmaking",
+  "type": "主场景"
+ },
+ {
+  "id": "Q042",
+  "query": "这个本成本高不高，场景是不是太多",
+  "expect": "zr-dx-buyer",
+  "alt": [],
+  "confuse": "zr-dx-package",
+  "type": "口语"
+ },
+ {
+  "id": "Q043",
+  "query": "明天就要上传真人剧了，帮我从头到尾查一遍会不会被驳回",
+  "expect": "zr-dx-release",
+  "alt": [],
+  "confuse": "zr-release-ops",
+  "type": "主场景"
+ },
+ {
+  "id": "Q044",
+  "query": "版权审核说剧名不一致，帮我看看缺啥",
+  "expect": "zr-dx-release",
+  "alt": [],
+  "confuse": "mj-dx-release",
+  "type": "口语"
+ },
+ {
+  "id": "Q045",
+  "query": "AI剧投稿包13项帮我核一下",
+  "expect": "mj-dx-package",
+  "alt": [],
+  "confuse": "zr-dx-package",
+  "type": "主场景"
+ },
+ {
+  "id": "Q046",
+  "query": "漫剧正文格式对不对，帮我扫一遍",
+  "expect": "mj-dx-package",
+  "alt": [],
+  "confuse": "zr-dx-episode",
+  "type": "口语"
+ },
+ {
+  "id": "Q047",
+  "query": "AI剧被退了，按平台12类退稿原因帮我查",
+  "expect": "mj-dx-rejection",
+  "alt": [],
+  "confuse": "zr-dx-rejection",
+  "type": "主场景"
+ },
+ {
+  "id": "Q048",
+  "query": "漫剧剧本AI味太重被拒，问题在哪",
+  "expect": "mj-dx-rejection",
+  "alt": [],
+  "confuse": "mj-cr-revise",
+  "type": "口语"
+ },
+ {
+  "id": "Q049",
+  "query": "我这个修仙漫剧的打斗会不会太血腥",
+  "expect": "mj-dx-redline",
+  "alt": [],
+  "confuse": "zr-dx-redline",
+  "type": "主场景"
+ },
+ {
+  "id": "Q050",
+  "query": "漫剧总投资50万要不要备案",
+  "expect": "mj-dx-redline",
+  "alt": [
+   "manju-hub"
+  ],
+  "confuse": "zr-dx-redline",
+  "type": "口语"
+ },
+ {
+  "id": "Q051",
+  "query": "这个漫剧本子AI画得出来吗，角色会不会崩脸",
+  "expect": "mj-dx-visual",
+  "alt": [],
+  "confuse": "mj-cr-character",
+  "type": "主场景"
+ },
+ {
+  "id": "Q052",
+  "query": "漫剧角色的脸有点像某个女明星，会出事吗",
+  "expect": "mj-dx-visual",
+  "alt": [],
+  "confuse": "mj-avatar",
+  "type": "口语"
+ },
+ {
+  "id": "Q053",
+  "query": "漫剧第一集开头会不会被划走",
+  "expect": "mj-dx-opening",
+  "alt": [],
+  "confuse": "zr-dx-opening",
+  "type": "主场景"
+ },
+ {
+  "id": "Q054",
+  "query": "男频漫剧1-1场有没有吸睛点",
+  "expect": "mj-dx-opening",
+  "alt": [],
+  "confuse": "mj-cr-opening",
+  "type": "口语"
+ },
+ {
+  "id": "Q055",
+  "query": "100集漫剧大纲钩子够不够",
+  "expect": "mj-dx-rhythm",
+  "alt": [],
+  "confuse": "zr-dx-rhythm",
+  "type": "主场景"
+ },
+ {
+  "id": "Q056",
+  "query": "漫剧中段是不是塌了",
+  "expect": "mj-dx-rhythm",
+  "alt": [],
+  "confuse": "mj-cr-series",
+  "type": "口语"
+ },
+ {
+  "id": "Q057",
+  "query": "漫剧明天上传，帮我查一遍",
+  "expect": "mj-dx-release",
+  "alt": [],
+  "confuse": "zr-dx-release",
+  "type": "主场景"
+ },
+ {
+  "id": "Q058",
+  "query": "漫剧是否AI作品那一项我选错了会怎样，上传前帮我核一下",
+  "expect": "mj-dx-release",
+  "alt": [],
+  "confuse": "mj-release-ops",
+  "type": "口语"
+ },
+ {
+  "id": "Q059",
+  "query": "想做个现实题材投千部计划，给我几个方向",
+  "expect": "zr-cr-topic",
+  "alt": [],
+  "confuse": "mj-cr-topic",
+  "type": "主场景"
+ },
+ {
+  "id": "Q060",
+  "query": "想写个短剧不知道写啥",
+  "expect": "zr-cr-topic",
+  "alt": [],
+  "confuse": "mj-cr-topic",
+  "type": "口语"
+ },
+ {
+  "id": "Q061",
+  "query": "帮我立一下男女主的人设",
+  "expect": "zr-cr-character",
+  "alt": [],
+  "confuse": "mj-cr-character",
+  "type": "主场景"
+ },
+ {
+  "id": "Q062",
+  "query": "反派太弱了，重做一个",
+  "expect": "zr-cr-character",
+  "alt": [],
+  "confuse": "zr-cr-mainline",
+  "type": "口语"
+ },
+ {
+  "id": "Q063",
+  "query": "主线怎么搭，核心冲突帮我理一理",
+  "expect": "zr-cr-mainline",
+  "alt": [],
+  "confuse": "mj-cr-world",
+  "type": "主场景"
+ },
+ {
+  "id": "Q064",
+  "query": "这个故事的长线发动机是什么",
+  "expect": "zr-cr-mainline",
+  "alt": [],
+  "confuse": "zr-cr-series",
+  "type": "口语"
+ },
+ {
+  "id": "Q065",
+  "query": "帮我重写第一集开头，要更抓人",
+  "expect": "zr-cr-opening",
+  "alt": [],
+  "confuse": "zr-dx-opening",
+  "type": "主场景"
+ },
+ {
+  "id": "Q066",
+  "query": "真人短剧第一集怎么写",
+  "expect": "zr-cr-opening",
+  "alt": [],
+  "confuse": "mj-cr-opening",
+  "type": "口语"
+ },
+ {
+  "id": "Q067",
+  "query": "帮我拆30集分集大纲",
+  "expect": "zr-cr-outline",
+  "alt": [],
+  "confuse": "mj-cr-outline",
+  "type": "主场景"
+ },
+ {
+  "id": "Q068",
+  "query": "付费卡点放哪集合适，帮我排一下",
+  "expect": "zr-cr-outline",
+  "alt": [],
+  "confuse": "mj-cr-outline",
+  "type": "口语"
+ },
+ {
+  "id": "Q069",
+  "query": "按分集卡把第五集写出来",
+  "expect": "zr-cr-episode",
+  "alt": [],
+  "confuse": "mj-cr-episode",
+  "type": "主场景"
+ },
+ {
+  "id": "Q070",
+  "query": "接着写下一集，真人剧",
+  "expect": "zr-cr-revise",
+  "alt": [],
+  "confuse": "zr-cr-episode",
+  "type": "口语"
+ },
+ {
+  "id": "Q071",
+  "query": "结局怎么写不烂尾",
+  "expect": "zr-cr-series",
+  "alt": [],
+  "confuse": "mj-cr-series",
+  "type": "主场景"
+ },
+ {
+  "id": "Q072",
+  "query": "后面30集怎么升级",
+  "expect": "zr-cr-series",
+  "alt": [],
+  "confuse": "zr-dx-rhythm",
+  "type": "口语"
+ },
+ {
+  "id": "Q073",
+  "query": "这段对白不像人话，帮我改",
+  "expect": "zr-cr-dialogue",
+  "alt": [],
+  "confuse": "mj-cr-dialogue",
+  "type": "主场景"
+ },
+ {
+  "id": "Q074",
+  "query": "几个角色说话都一个味儿",
+  "expect": "zr-cr-dialogue",
+  "alt": [],
+  "confuse": "zr-cr-character",
+  "type": "口语"
+ },
+ {
+  "id": "Q075",
+  "query": "这本都市小说能拍成真人短剧吗，帮我出改编方案",
+  "expect": "zr-cr-adapt",
+  "alt": [],
+  "confuse": "mj-cr-adapt",
+  "type": "主场景"
+ },
+ {
+  "id": "Q076",
+  "query": "网文改短剧剧本",
+  "expect": "zr-cr-adapt",
+  "alt": [],
+  "confuse": "mj-cr-adapt",
+  "type": "口语"
+ },
+ {
+  "id": "Q077",
+  "query": "平台说我这集太长，帮我压到1200以内",
+  "expect": "zr-cr-revise",
+  "alt": [],
+  "confuse": "zr-dx-episode",
+  "type": "主场景"
+ },
+ {
+  "id": "Q078",
+  "query": "按诊断报告把这几处改了",
+  "expect": "zr-cr-revise",
+  "alt": [],
+  "confuse": "zr-dx-rejection",
+  "type": "口语"
+ },
+ {
+  "id": "Q079",
+  "query": "想做个漫剧不知道写啥",
+  "expect": "mj-cr-topic",
+  "alt": [],
+  "confuse": "zr-cr-topic",
+  "type": "主场景"
+ },
+ {
+  "id": "Q080",
+  "query": "AI剧选什么题材好过稿",
+  "expect": "mj-cr-topic",
+  "alt": [],
+  "confuse": "zr-cr-topic",
+  "type": "口语"
+ },
+ {
+  "id": "Q081",
+  "query": "漫剧主角要怎么设计才不会每集崩脸",
+  "expect": "mj-cr-character",
+  "alt": [],
+  "confuse": "mj-dx-visual",
+  "type": "主场景"
+ },
+ {
+  "id": "Q082",
+  "query": "帮我定漫剧角色形象锚点",
+  "expect": "mj-cr-character",
+  "alt": [],
+  "confuse": "mj-avatar",
+  "type": "口语"
+ },
+ {
+  "id": "Q083",
+  "query": "修仙体系怎么设计",
+  "expect": "mj-cr-world",
+  "alt": [],
+  "confuse": "zr-cr-mainline",
+  "type": "主场景"
+ },
+ {
+  "id": "Q084",
+  "query": "漫剧世界观帮我搭一下",
+  "expect": "mj-cr-world",
+  "alt": [],
+  "confuse": "zr-cr-mainline",
+  "type": "口语"
+ },
+ {
+  "id": "Q085",
+  "query": "漫剧第一集怎么写才燃",
+  "expect": "mj-cr-opening",
+  "alt": [],
+  "confuse": "zr-cr-opening",
+  "type": "主场景"
+ },
+ {
+  "id": "Q086",
+  "query": "AI剧开头帮我写一版",
+  "expect": "mj-cr-opening",
+  "alt": [],
+  "confuse": "mj-dx-opening",
+  "type": "口语"
+ },
+ {
+  "id": "Q087",
+  "query": "漫剧大纲帮我排，一卡放哪",
+  "expect": "mj-cr-outline",
+  "alt": [],
+  "confuse": "zr-cr-outline",
+  "type": "主场景"
+ },
+ {
+  "id": "Q088",
+  "query": "100集漫剧分集卡",
+  "expect": "mj-cr-outline",
+  "alt": [],
+  "confuse": "zr-cr-outline",
+  "type": "口语"
+ },
+ {
+  "id": "Q089",
+  "query": "帮我写漫剧第三集",
+  "expect": "mj-cr-episode",
+  "alt": [],
+  "confuse": "zr-cr-episode",
+  "type": "主场景"
+ },
+ {
+  "id": "Q090",
+  "query": "按分集卡写AI剧正文",
+  "expect": "mj-cr-episode",
+  "alt": [],
+  "confuse": "mj-cr-handoff",
+  "type": "口语"
+ },
+ {
+  "id": "Q091",
+  "query": "漫剧连载后面怎么升级不崩",
+  "expect": "mj-cr-series",
+  "alt": [],
+  "confuse": "zr-cr-series",
+  "type": "主场景"
+ },
+ {
+  "id": "Q092",
+  "query": "首发完了第二批怎么接",
+  "expect": "mj-cr-series",
+  "alt": [],
+  "confuse": "mj-dx-rhythm",
+  "type": "口语"
+ },
+ {
+  "id": "Q093",
+  "query": "漫剧台词太书面了",
+  "expect": "mj-cr-dialogue",
+  "alt": [],
+  "confuse": "zr-cr-dialogue",
+  "type": "主场景"
+ },
+ {
+  "id": "Q094",
+  "query": "漫剧OS太多了帮我改",
+  "expect": "mj-cr-dialogue",
+  "alt": [],
+  "confuse": "mj-cr-revise",
+  "type": "口语"
+ },
+ {
+  "id": "Q095",
+  "query": "帮我把这本番茄小说改成漫剧",
+  "expect": "mj-cr-adapt",
+  "alt": [],
+  "confuse": "zr-cr-adapt",
+  "type": "主场景"
+ },
+ {
+  "id": "Q096",
+  "query": "网文怎么改成AI剧",
+  "expect": "mj-cr-adapt",
+  "alt": [],
+  "confuse": "zr-cr-adapt",
+  "type": "口语"
+ },
+ {
+  "id": "Q097",
+  "query": "被退稿了说旁白太多，帮我改成对话",
+  "expect": "mj-cr-revise",
+  "alt": [],
+  "confuse": "mj-dx-rejection",
+  "type": "主场景"
+ },
+ {
+  "id": "Q098",
+  "query": "接着写漫剧下一批",
+  "expect": "mj-cr-revise",
+  "alt": [],
+  "confuse": "mj-cr-episode",
+  "type": "口语"
+ },
+ {
+  "id": "Q099",
+  "query": "剧本写完了，帮我出分镜表给生成用",
+  "expect": "mj-cr-handoff",
+  "alt": [],
+  "confuse": "mj-cr-episode",
+  "type": "主场景"
+ },
+ {
+  "id": "Q100",
+  "query": "角色资产卡和生成交接怎么做",
+  "expect": "mj-cr-handoff",
+  "alt": [],
+  "confuse": "mj-cr-character",
+  "type": "口语"
+ },
+ {
+  "id": "Q101",
+  "query": "帮我写一个互动电影的分支选项",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-episode",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q102",
+  "query": "帮我写抖音带货短视频脚本",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-episode",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q103",
+  "query": "Seedance提示词怎么写",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "mj-cr-handoff",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q104",
+  "query": "帮我写一部院线电影剧本的第一场",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-opening",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q105",
+  "query": "番茄小说怎么签约成为作者",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "mj-submit-sign",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q106",
+  "query": "给我讲讲斯坦尼斯拉夫斯基体系",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-character",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q107",
+  "query": "帮我写一篇网文第一章",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "mj-cr-adapt",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q108",
+  "query": "我的抖音号怎么涨粉",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-release-ops",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q109",
+  "query": "帮我做一个舞台剧的人物小传",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-character",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q110",
+  "query": "用即梦生成一张古风女主海报",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "mj-avatar",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q111",
+  "query": "长剧集电视剧的分集大纲怎么写",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-cr-outline",
+  "type": "不应触发"
+ },
+ {
+  "id": "Q112",
+  "query": "个人所得税怎么申报",
+  "expect": "NONE",
+  "alt": [],
+  "confuse": "zr-settle-data",
+  "type": "不应触发"
+ }
+]

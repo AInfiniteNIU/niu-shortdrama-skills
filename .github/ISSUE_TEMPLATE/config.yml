@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用交流与作品分享
+    url: https://github.com/AInfiniteNIU/niu-shortdrama-skills/discussions
+    about: 分享你用这套 skill 写出的剧本，或讨论创作方法
+  - name: 商用授权与合作
+    url: https://github.com/AInfiniteNIU/niu-shortdrama-skills/discussions
+    about: 发帖时注明「合作」

@@ -1,0 +1,18 @@
+name: 触发不准或诊断误判
+description: 调错了 skill、没调到，或者诊断判错了
+labels: [bug]
+body:
+  - type: textarea
+    id: said
+    attributes: {label: 你的原话, description: 或者能复现问题的剧本片段}
+    validations: {required: true}
+  - type: input
+    id: expect
+    attributes: {label: 期望的结果, placeholder: 例如应该调用 zr-dx-episode}
+  - type: input
+    id: actual
+    attributes: {label: 实际的结果}
+    validations: {required: true}
+  - type: input
+    id: env
+    attributes: {label: 用的什么工具和版本, placeholder: 例如 Claude Code，v1.4.0}

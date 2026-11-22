@@ -1,0 +1,81 @@
+{
+  "name": "ainfiniteniu-shortdrama",
+  "owner": {
+    "name": "AInfiniteNIU",
+    "url": "https://github.com/AInfiniteNIU"
+  },
+  "metadata": {
+    "description": "短剧创作者中心 skill 系统：真人剧与 AI 漫剧两套，各 25 个 skill，四层分工（路由、办事、诊断、创作）",
+    "version": "1.4.0"
+  },
+  "plugins": [
+    {
+      "name": "zhenren",
+      "description": "真人短剧 25 个 skill：规则问答、入驻投稿签约撮合上线结算、投稿包与单集诊断、选题到分集的剧本创作",
+      "source": "./",
+      "strict": false,
+      "version": "1.4.0",
+      "skills": [
+        "./skills/zhenren-hub",
+        "./skills/zr-cr-adapt",
+        "./skills/zr-cr-character",
+        "./skills/zr-cr-dialogue",
+        "./skills/zr-cr-episode",
+        "./skills/zr-cr-mainline",
+        "./skills/zr-cr-opening",
+        "./skills/zr-cr-outline",
+        "./skills/zr-cr-revise",
+        "./skills/zr-cr-series",
+        "./skills/zr-cr-topic",
+        "./skills/zr-crew",
+        "./skills/zr-dx-buyer",
+        "./skills/zr-dx-episode",
+        "./skills/zr-dx-opening",
+        "./skills/zr-dx-package",
+        "./skills/zr-dx-redline",
+        "./skills/zr-dx-rejection",
+        "./skills/zr-dx-release",
+        "./skills/zr-dx-rhythm",
+        "./skills/zr-matchmaking",
+        "./skills/zr-onboard",
+        "./skills/zr-release-ops",
+        "./skills/zr-settle-data",
+        "./skills/zr-submit-sign"
+      ]
+    },
+    {
+      "name": "manju",
+      "description": "AI 漫剧与 AI 剧 25 个 skill：规则问答、合作模式与虚拟形象确权、投稿包与可生成性诊断、世界观到分集的剧本创作",
+      "source": "./",
+      "strict": false,
+      "version": "1.4.0",
+      "skills": [
+        "./skills/manju-hub",
+        "./skills/mj-avatar",
+        "./skills/mj-cr-adapt",
+        "./skills/mj-cr-character",
+        "./skills/mj-cr-dialogue",
+        "./skills/mj-cr-episode",
+        "./skills/mj-cr-handoff",
+        "./skills/mj-cr-opening",
+        "./skills/mj-cr-outline",
+        "./skills/mj-cr-revise",
+        "./skills/mj-cr-series",
+        "./skills/mj-cr-topic",
+        "./skills/mj-cr-world",
+        "./skills/mj-dx-opening",
+        "./skills/mj-dx-package",
+        "./skills/mj-dx-redline",
+        "./skills/mj-dx-rejection",
+        "./skills/mj-dx-release",
+        "./skills/mj-dx-rhythm",
+        "./skills/mj-dx-visual",
+        "./skills/mj-matchmaking",
+        "./skills/mj-onboard",
+        "./skills/mj-release-ops",
+        "./skills/mj-settle-data",
+        "./skills/mj-submit-sign"
+      ]
+    }
+  ]
+}

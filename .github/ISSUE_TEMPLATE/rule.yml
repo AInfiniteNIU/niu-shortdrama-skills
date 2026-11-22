@@ -1,0 +1,16 @@
+name: 规则过时或有误
+description: 平台规则改了、活动截止了、数字不对
+labels: [规则更新]
+body:
+  - type: input
+    id: card
+    attributes: {label: 规则卡编号, placeholder: 例如 Z1-01、M2-06}
+    validations: {required: true}
+  - type: textarea
+    id: now
+    attributes: {label: 平台现在怎么说, description: 尽量贴原话}
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: 出处, placeholder: 文档名称与更新日期，或站内信日期}
+    validations: {required: true}
